@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R lernen mit Katzen - Psych-Stats Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="mascot">🐱</div>
+    <h1>R lernen mit Katzen</h1>
+    <p>Psychologie-Statistik, aber mit Schnurrhaaren</p>
+  </header>
+
+  <div id="start-screen" class="card screen">
+    <h2>Bereit zum Schnurren? 😺</h2>
+    <p>
+      Über 40 Fragen rund um R-Programmierung, verpackt in psychologische Katzen-Experimente.
+      Wähle ein Themengebiet oder mach alle Fragen auf einmal!
+    </p>
+    <div class="section-grid" id="section-grid"></div>
+    <button class="btn-primary btn-lg" onclick="quiz.start('all')">Alle Fragen mischen 🐾</button>
+  </div>
+
+  <div id="quiz-screen" class="hidden">
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+      <div class="progress-text" id="progress-text">1 / 20</div>
+    </div>
+    <div class="stats">
+      <div class="stat-badge streak"><span id="streak-val">0</span>🔥 Streak</div>
+      <div class="stat-badge score"><span id="score-val">0</span>✅ Richtig</div>
+    </div>
+    <div class="card" id="question-card"></div>
+  </div>
+
+  <div id="result-screen" class="card screen hidden"></div>
+</div>
+
+<div class="streak-popup" id="streak-popup"></div>
+
+<footer>Gemacht mit 🐱 und ☕ &mdash; R lernen muss nicht langweilig sein.</footer>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
