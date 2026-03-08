@@ -165,7 +165,8 @@ const quiz = {
     const btnAction = isLast ? "quiz.showResults()" : "quiz.next()";
     const btnLabel = isLast ? "Ergebnis anzeigen 🏆" : "Nächste Frage →";
 
-    const gif = isCorrect ? pickRandom(CORRECT_GIFS) : pickRandom(WRONG_GIFS);
+    // cache-bust with timestamp to get a different cat each time
+    const catGif = `https://cataas.com/cat/gif?t=${Date.now()}`;
 
     $("feedback").innerHTML = `
       <div class="explanation">
@@ -173,7 +174,7 @@ const quiz = {
         ${q.explanation}
       </div>
       <div class="cat-gif-wrap">
-        <img src="${gif}" alt="${isCorrect ? "Katze feiert" : "Katze ist verwirrt"}" loading="lazy">
+        <img src="${catGif}" alt="Zufällige Katze" loading="lazy">
       </div>
       <div class="cat-fact">
         <span class="cat-fact-emoji">🐱</span>
