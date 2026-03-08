@@ -614,25 +614,25 @@ const QUESTIONS = [
 ];
 
 const CORRECT_GIFS = [
-  "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
-  "https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif",
-  "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif",
-  "https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif",
-  "https://media.giphy.com/media/l0HlPwMAzh13QYR7q/giphy.gif",
-  "https://media.giphy.com/media/nR4L10XlJcSeQ/giphy.gif",
-  "https://media.giphy.com/media/mlvseq9ysyG7K/giphy.gif",
-  "https://media.giphy.com/media/5i7IUqyOtTnSU/giphy.gif",
+  "https://i.giphy.com/media/JIX9t2j0ZTN9S/200.gif",
+  "https://i.giphy.com/media/3oriO0OEd9QIDdllqo/200.gif",
+  "https://i.giphy.com/media/ICOgUNjpvO0PC/200.gif",
+  "https://i.giphy.com/media/MDJ9IbxxvDUQM/200.gif",
+  "https://i.giphy.com/media/l0HlPwMAzh13QYR7q/200.gif",
+  "https://i.giphy.com/media/nR4L10XlJcSeQ/200.gif",
+  "https://i.giphy.com/media/mlvseq9ysyG7K/200.gif",
+  "https://i.giphy.com/media/5i7IUqyOtTnSU/200.gif",
 ];
 
 const WRONG_GIFS = [
-  "https://media.giphy.com/media/JYZ397GqraYA8/giphy.gif",
-  "https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif",
-  "https://media.giphy.com/media/3o7527pa7qs4kEq3Hq/giphy.gif",
-  "https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif",
-  "https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif",
-  "https://media.giphy.com/media/xT0xeMA62E1XIlup6g/giphy.gif",
-  "https://media.giphy.com/media/melZPISQa99Is/giphy.gif",
-  "https://media.giphy.com/media/H4DjXQXamtTiIuCcRU/giphy.gif",
+  "https://i.giphy.com/media/JYZ397GqraYA8/200.gif",
+  "https://i.giphy.com/media/VbnUQpnihPSIgIXuZv/200.gif",
+  "https://i.giphy.com/media/3o7527pa7qs4kEq3Hq/200.gif",
+  "https://i.giphy.com/media/bEVKYB487Lqxy/200.gif",
+  "https://i.giphy.com/media/3o6Zt481isNVuQI1l6/200.gif",
+  "https://i.giphy.com/media/xT0xeMA62E1XIlup6g/200.gif",
+  "https://i.giphy.com/media/melZPISQa99Is/200.gif",
+  "https://i.giphy.com/media/H4DjXQXamtTiIuCcRU/200.gif",
 ];
 
 const CAT_FACTS = [
